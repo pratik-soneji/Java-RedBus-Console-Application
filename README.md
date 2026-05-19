@@ -24,12 +24,14 @@ A comprehensive Java console-based application that simulates an online bus tick
 - **View All Bookings**: Admins can monitor all tickets booked by users across the platform.
 
 ### 3. Payment System & Multithreading Implementation
-The application simulates an asynchronous UPI payment processing system using the **Producer-Consumer** multithreading design pattern.
+**Note:** The UPI payment feature in this console-based application is a simple object-oriented simulation built with standard Java classes. It **does not** integrate with any real UPI payment gateways or process actual financial transactions.
+
+The application uses this simple setup to demonstrate the **Producer-Consumer** multithreading design pattern in an asynchronous payment processing context:
 
 - **`UpiPay` Class (Shared Resource):** Contains synchronized `put()` (request payment) and `get()` (process payment) methods. It uses `wait()` and `notify()` for inter-thread communication, relying on a boolean `requested` flag to ensure synchronized data flow.
 - **Producer Thread (`UserUpiPay`):** Represents the user initiating a payment request. It calls the `put()` method to submit the request.
 - **Consumer Thread (`UserUpiPayResponse`):** Represents the payment gateway/server processing the request. It calls the `get()` method to accept and verify the transaction.
-- **Synchronization**: This implementation ensures that a payment response is generated only after a payment request is made, preventing race conditions and simulating a real-world asynchronous transaction pipeline.
+- **Synchronization**: This implementation ensures that a payment response is generated only after a payment request is made, preventing race conditions and simulating an asynchronous transaction pipeline.
 
 ## 🏗️ Project Architecture & OOP Concepts
 - **Inheritance & Polymorphism**: Abstract `Bus` class acts as a base for specific bus types like `AcBus`, `AcSleeper`, `ExpressBus`, and `NormalBus`. Dynamic method dispatch is used to calculate varying fare rates.

@@ -15,7 +15,7 @@ A comprehensive Java console-based application that simulates an online bus tick
 - **Download Ticket**: Users can generate and download their e-tickets as a text file (`Ticket_RedBus.txt`).
 
 ### 2. Admin Module
-- **Admin Dashboard**: Secure login for administrators (credentials: `a`/`a`).
+- **Admin Dashboard**: Secure login for administrators (credentials: `admin`/`admin`).
 - **Bus Management**:
   - Add new bus routes, specifying bus type (AC, AC Sleeper, Express, Normal), seat capacity, route, and timing.
   - View all registered buses.

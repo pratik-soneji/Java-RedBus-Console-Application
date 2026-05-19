@@ -4,8 +4,8 @@ import java.util.Date;
 import java.util.Scanner;
 
 public class Admin extends BookingService{
-     private static final String adminUserName="a";
-     private static final String adminPass="a";
+     private static final String adminUserName="admin";
+     private static final String adminPass="admin";
      final static Scanner sc = new Scanner(System.in);
     boolean verifyCredentials(String userName, String passWord) {
         if (userName.equals(adminUserName)) {

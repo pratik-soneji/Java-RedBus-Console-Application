@@ -1,4 +1,4 @@
-# Online Bus Booking System (RedBus Clone)
+# 🚌 Java Redbus Console Application
 
 A comprehensive Java console-based application that simulates an online bus ticket booking platform. This project provides role-based access for both Administrators and Users, featuring bus management, seat reservation, ticket cancellation, and a simulated UPI payment gateway using Java Multithreading.
 

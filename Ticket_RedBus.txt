@@ -1,0 +1,26 @@
+=========================================
+          BUS BOOKING E-TICKET         
+=========================================
+--- TICKET CONFIRMATION ---
+Ticket ID: 77933
+Bus: 124 (AC)
+Route: a -> b
+Travel Date : Tue Nov 18 10:40:00 IST 2025
+Departure Time: 10:40
+Passengers: 2 | Total Fare: Rs. 1200.00
+Booking Status: Confirmed
+--------------------------
+Passengers:
+ - a (Age: 12, Gender: F)
+ - s (Age: 15, Gender: M)
+-----------------------------------------
+Selected Seats:
+ - Seat No: 3 | Type: AC
+ - Seat No: 6 | Type: AC
+-----------------------------------------
+Amount Paid  : Rs. 1200.00
+Booking Date : Mon Nov 17 12:00:25 IST 2025
+Status       : Confirmed
+=========================================
+               HAPPY JOURNEY!            
+=========================================
